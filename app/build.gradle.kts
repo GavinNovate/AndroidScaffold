@@ -66,6 +66,17 @@ dependencies {
     // optional - ReactiveStreams support for LiveData
     implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:$androidxLifecycleVersion")
 
+    // Room
+    implementation("androidx.room:room-runtime:$androidxRoomVersion")
+    kapt("androidx.room:room-compiler:$androidxRoomVersion")
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:$androidxRoomVersion")
+    // optional - RxJava support for Room
+    implementation("androidx.room:room-rxjava2:$androidxRoomVersion")
+    // optional - Guava support for Room, including Optional and ListenableFuture
+    implementation("androidx.room:room-guava:$androidxRoomVersion")
+    // test helpers
+    testImplementation("androidx.room:room-testing:$androidxRoomVersion")
 
     // Test
     testImplementation("junit:junit:$junitVersion")

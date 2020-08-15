@@ -18,6 +18,9 @@ const val androidxCollectionKtxVersion = "1.1.0"
 // Androidx Lifecycle
 const val androidxLifecycleVersion = "2.2.0"
 
+// Androidx Room
+const val androidxRoomVersion = "2.2.5"
+
 // test
 const val junitVersion = "4.13"
 
