@@ -3,6 +3,7 @@ plugins {
     id("kotlin-android")
     id("kotlin-android-extensions")
     id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
     id("androidx.navigation.safeargs.kotlin")
 }
 
@@ -102,6 +103,10 @@ dependencies {
     implementation("androidx.work:work-gcm:$androidxWorkVersion")
     // optional - Test helpers
     androidTestImplementation("androidx.work:work-testing:$androidxWorkVersion")
+
+    // Hilt
+    implementation("com.google.dagger:hilt-android:$hiltVersion")
+    kapt("com.google.dagger:hilt-android-compiler:$hiltVersion")
 
     // Test
     testImplementation("junit:junit:$junitVersion")

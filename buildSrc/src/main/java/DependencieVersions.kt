@@ -30,6 +30,9 @@ const val androidxRoomVersion = "2.2.5"
 // Androidx Work
 const val androidxWorkVersion = "2.4.0"
 
+// Hilt
+const val hiltVersion = "2.28.3-alpha"
+
 // test
 const val junitVersion = "4.13"
 
