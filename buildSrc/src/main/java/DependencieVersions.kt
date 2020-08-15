@@ -21,6 +21,9 @@ const val androidxLifecycleVersion = "2.2.0"
 // Androidx Navigation
 const val androidxNavigationVersion = "2.3.0"
 
+// Androidx Paging
+const val androidxPagingVersion = "3.0.0-alpha04"
+
 // Androidx Room
 const val androidxRoomVersion = "2.2.5"
 

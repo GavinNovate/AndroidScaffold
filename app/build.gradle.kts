@@ -75,6 +75,13 @@ dependencies {
     // test helpers
     androidTestImplementation("androidx.navigation:navigation-testing:$androidxNavigationVersion")
 
+    // Paging
+    implementation("androidx.paging:paging-runtime:$androidxPagingVersion")
+    // optional - RxJava2 support
+    implementation("androidx.paging:paging-rxjava2:$androidxPagingVersion")
+    // optional - Guava ListenableFuture support
+    implementation("androidx.paging:paging-guava:$androidxPagingVersion")
+
     // Room
     implementation("androidx.room:room-runtime:$androidxRoomVersion")
     kapt("androidx.room:room-compiler:$androidxRoomVersion")
