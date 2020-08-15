@@ -3,6 +3,7 @@ plugins {
     id("kotlin-android")
     id("kotlin-android-extensions")
     id("kotlin-kapt")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -65,6 +66,14 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-process:$androidxLifecycleVersion")
     // optional - ReactiveStreams support for LiveData
     implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:$androidxLifecycleVersion")
+
+    // Navigation
+    implementation("androidx.navigation:navigation-ui-ktx:$androidxNavigationVersion")
+    implementation("androidx.navigation:navigation-fragment-ktx:$androidxNavigationVersion")
+    // optional - Dynamic Feature Module Support
+    implementation("androidx.navigation:navigation-dynamic-features-fragment:$androidxNavigationVersion")
+    // test helpers
+    androidTestImplementation("androidx.navigation:navigation-testing:$androidxNavigationVersion")
 
     // Room
     implementation("androidx.room:room-runtime:$androidxRoomVersion")
