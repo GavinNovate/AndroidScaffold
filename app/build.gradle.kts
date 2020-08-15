@@ -72,7 +72,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$androidxNavigationVersion")
     // optional - Dynamic Feature Module Support
     implementation("androidx.navigation:navigation-dynamic-features-fragment:$androidxNavigationVersion")
-    // test helpers
+    // optional - Test helpers
     androidTestImplementation("androidx.navigation:navigation-testing:$androidxNavigationVersion")
 
     // Paging
@@ -91,8 +91,17 @@ dependencies {
     implementation("androidx.room:room-rxjava2:$androidxRoomVersion")
     // optional - Guava support for Room, including Optional and ListenableFuture
     implementation("androidx.room:room-guava:$androidxRoomVersion")
-    // test helpers
+    // optional - Test helpers
     testImplementation("androidx.room:room-testing:$androidxRoomVersion")
+
+    // Work
+    implementation("androidx.work:work-runtime-ktx:$androidxWorkVersion")
+    // optional - RxJava2 support
+    implementation("androidx.work:work-rxjava2:$androidxWorkVersion")
+    // optional - GCMNetworkManager support
+    implementation("androidx.work:work-gcm:$androidxWorkVersion")
+    // optional - Test helpers
+    androidTestImplementation("androidx.work:work-testing:$androidxWorkVersion")
 
     // Test
     testImplementation("junit:junit:$junitVersion")

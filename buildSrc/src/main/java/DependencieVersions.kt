@@ -27,6 +27,9 @@ const val androidxPagingVersion = "3.0.0-alpha04"
 // Androidx Room
 const val androidxRoomVersion = "2.2.5"
 
+// Androidx Work
+const val androidxWorkVersion = "2.4.0"
+
 // test
 const val junitVersion = "4.13"
 
