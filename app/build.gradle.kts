@@ -109,6 +109,12 @@ dependencies {
     // Hilt
     implementation("com.google.dagger:hilt-android:$hiltVersion")
     kapt("com.google.dagger:hilt-android-compiler:$hiltVersion")
+    // optional - ViewModelInject Support
+    implementation("androidx.hilt:hilt-lifecycle-viewmodel:$hiltOptionalVersion")
+    // optional - WorkerInject Support
+    implementation("androidx.hilt:hilt-work:$hiltOptionalVersion")
+    // optional - ViewModelInject & WorkerInject Compiler
+    kapt("androidx.hilt:hilt-compiler:$hiltOptionalVersion")
 
     // Timber
     implementation("com.jakewharton.timber:timber:$timberVersion")

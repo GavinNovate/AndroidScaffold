@@ -32,6 +32,7 @@ const val androidxWorkVersion = "2.4.0"
 
 // Hilt
 const val hiltVersion = "2.28.3-alpha"
+const val hiltOptionalVersion = "1.0.0-alpha02"
 
 // Timber
 const val timberVersion = "4.7.1"
