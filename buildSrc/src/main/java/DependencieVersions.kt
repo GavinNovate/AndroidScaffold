@@ -33,6 +33,9 @@ const val androidxWorkVersion = "2.4.0"
 // Hilt
 const val hiltVersion = "2.28.3-alpha"
 
+// Timber
+const val timberVersion = "4.7.1"
+
 // test
 const val junitVersion = "4.13"
 

@@ -42,6 +42,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":base"))
+
     // Kotlin
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
 
@@ -107,6 +109,9 @@ dependencies {
     // Hilt
     implementation("com.google.dagger:hilt-android:$hiltVersion")
     kapt("com.google.dagger:hilt-android-compiler:$hiltVersion")
+
+    // Timber
+    implementation("com.jakewharton.timber:timber:$timberVersion")
 
     // Test
     testImplementation("junit:junit:$junitVersion")

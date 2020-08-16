@@ -39,6 +39,9 @@ dependencies {
     implementation("androidx.appcompat:appcompat:$androidxAppcompatVersion")
     implementation("androidx.constraintlayout:constraintlayout:$androidxConstraintlayoutVersion")
 
+    // Timber
+    implementation("com.jakewharton.timber:timber:$timberVersion")
+
     // Test
     testImplementation("junit:junit:$junitVersion")
 
